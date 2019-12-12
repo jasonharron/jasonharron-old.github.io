@@ -1,18 +1,20 @@
-/*globals Phaser*/
+/*global Phaser*/
+
 export default {
   type: Phaser.AUTO,
-  parent: "phaser-template",
-  scale: {
-    mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH
-  },
+  parent: 'phaser-example',
+    scale: {
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH
+    },
   width: 800,
   height: 600,
   physics: {
-    default: "arcade",
+    default: 'arcade',
     arcade: {
-      gravity: { y: 0 },
-      debug: false
+        gravity: { y: 360 },
+        debug: true
     }
-  }
+  },
+pixelArt: true
 };

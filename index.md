@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<title>Phaser 3 Template</title>
-	<meta charset="UTF-8" />
-	<link rel="stylesheet" type="text/css" href="src/styles.css">
-</head>
-
-<body>
-	<script src="src/index.js">
-	</script>
-</body>
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Peggy The Pirate</title>
+        <script src="./src/phaser/phaser.min.js"></script>
+    </head>
+    <body>
+        <script src="./src/index.js" type="module"></script>
+    </body>
 </html>
