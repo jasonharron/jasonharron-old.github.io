@@ -1,5 +1,5 @@
 /*global Phaser*/
-import * as ChangeScene from'./Changescene.js';
+import * as ChangeScene from'./ChangeScene.js';
 export default class successScene extends Phaser.Scene {
   constructor () {
     super('successScene');

@@ -1,5 +1,5 @@
 /*global Phaser*/
-import * as ChangeScene from'./Changescene.js';
+import * as ChangeScene from'./ChangeScene.js';
 export default class Level1 extends Phaser.Scene {
   constructor () {
     super('Level1');
