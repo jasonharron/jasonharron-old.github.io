@@ -9,7 +9,7 @@ import Level1v2 from './scenes/Level1.1.js';
 import IntroScene from './scenes/Introduction.js';
 import bossIntroScene from './scenes/bossIntroduction.js'
 import test from './scenes/test.js';
-import CutScene from './scenes/cutscene.js';
+import CutScene from './scenes/CutScene.js';
 import gameWorld from './scenes/gameWorld.js'
 
 
